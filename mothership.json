@@ -1,31 +1,47 @@
 {
-    "Sources": [],
-    "Packages": [
-      { "Id": "Microsoft.VisualStudioCode" },
-      { "Id": "Valve.Steam" },
-      { "Id": "Discord.Discord" },
-      { "Id": "KeePassXCTeam.KeePassXC" },
-      { "Id": "Nextcloud.NextcloudDesktop" },
-      { "Id": "EpicGames.EpicGamesLauncher" },
-      { "Id": "OBSProject.OBSStudio" },
-      { "Id": "Brave.Brave" },
-      { "Id": "eloston.ungoogled-chromium" },
-      { "Id": "LibreWolf.LibreWolf" },
-      { "Id": "VideoLAN.VLC" },
-      { "Id": "Parsec.Parsec" },
-      { "Id": "Microsoft.MouseWithoutBorders" },
-      { "Id": "Microsoft.PowerToys" },
-      { "Id": "Obsidian.Obsidian" },
-      { "Id": "Mozilla.Thunderbird" },
-      { "Id": "Docker.DockerDesktop" },
-      { "Id": "OpenJS.NodeJS.LTS" },
-      { "Id": "Git.Git" },
-      { "Id": "DuongDieuPhap.ImageGlass" },
-      { "Id": "Nvidia.GeForceExperience" },
-      { "Id": "Notepad++.Notepad++" },
-      { "Id": "PrestonN.FreeTube" },
-      { "Id": "Rufus.Rufus" },
-      { "Id": "Balena.Etcher" }
-    ]
+    "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+    "CreationDate": "2025-01-05T14:00:00.000Z",
+    "Sources": [
+      {
+        "Packages": [
+          { "PackageIdentifier": "Microsoft.VisualStudioCode" },
+          { "PackageIdentifier": "Valve.Steam" },
+          { "PackageIdentifier": "Discord.Discord" },
+          { "PackageIdentifier": "KeePassXCTeam.KeePassXC" },
+          { "PackageIdentifier": "Nextcloud.NextcloudDesktop" },
+          { "PackageIdentifier": "EpicGames.EpicGamesLauncher" },
+          { "PackageIdentifier": "OBSProject.OBSStudio" },
+          { "PackageIdentifier": "Brave.Brave" },
+          { "PackageIdentifier": "eloston.ungoogled-chromium" },
+          { "PackageIdentifier": "LibreWolf.LibreWolf" },
+          { "PackageIdentifier": "VideoLAN.VLC" },
+          { "PackageIdentifier": "Parsec.Parsec" },
+          { "PackageIdentifier": "Microsoft.MouseWithoutBorders" },
+          { "PackageIdentifier": "Microsoft.PowerToys" },
+          { "PackageIdentifier": "Obsidian.Obsidian" },
+          { "PackageIdentifier": "Mozilla.Thunderbird" },
+          { "PackageIdentifier": "Docker.DockerDesktop" },
+          { "PackageIdentifier": "OpenJS.NodeJS.LTS" },
+          { "PackageIdentifier": "Git.Git" },
+          { "PackageIdentifier": "DuongDieuPhap.ImageGlass" },
+          { "PackageIdentifier": "Nvidia.GeForceExperience" },
+          { "PackageIdentifier": "Notepad++.Notepad++" },
+          { "PackageIdentifier": "PrestonN.FreeTube" },
+          { "PackageIdentifier": "Rufus.Rufus" },
+          { "PackageIdentifier": "Balena.Etcher" },
+          { "PackageIdentifier": "ProtonTechnologies.ProtonVPN" },
+          { "PackageIdentifier": "TorProject.TorBrowser" },
+          { "PackageIdentifier": "ZeroTier.ZeroTierOne" },
+          { "PackageIdentifier": "Cloudflare.Warp" }
+        ],
+        "SourceDetails": {
+          "Argument": "https://cdn.winget.microsoft.com/cache",
+          "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+          "Name": "winget",
+          "Type": "Microsoft.PreIndexed.Package"
+        }
+      }
+    ],
+    "WinGetVersion": "1.9.25200"
   }
   
