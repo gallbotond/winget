@@ -29,7 +29,7 @@
           { "PackageIdentifier": "PrestonN.FreeTube" },
           { "PackageIdentifier": "Rufus.Rufus" },
           { "PackageIdentifier": "Balena.Etcher" },
-          { "PackageIdentifier": "ProtonTechnologies.ProtonVPN" },
+          { "PackageIdentifier": "Proton.ProtonVPN" },
           { "PackageIdentifier": "TorProject.TorBrowser" },
           { "PackageIdentifier": "ZeroTier.ZeroTierOne" },
           { "PackageIdentifier": "Cloudflare.Warp" }
